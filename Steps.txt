@@ -1,0 +1,15 @@
+1. Create Three Deployments with 1 replica set each
+	Command: kubectl apply -f "C:\Users\sharma\Downloads\K8s_Python-20201105T131634Z-001\K8s_Python\Docs\PractiseFiles\Ingress_Controller_Deploy\deploymentdev.yaml"
+	Command: kubectl apply -f "C:\Users\sharma\Downloads\K8s_Python-20201105T131634Z-001\K8s_Python\Docs\PractiseFiles\Ingress_Controller_Deploy\deploymentprod.yaml"
+	
+2. Expose two  Deployments without any Type(included the service in deployment.yaml)
+
+3. kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-0.32.0/deploy/static/provider/aws/deploy.yaml
+
+4. Create Ingress for the services
+	Command: kubectl apply -f "C:\Users\sharma\Downloads\K8s_Python-20201105T131634Z-001\K8s_Python\Docs\PractiseFiles\Ingress_Controller_Deploy\ingressdev.yaml"
+	Command: kubectl apply -f "C:\Users\sharma\Downloads\K8s_Python-20201105T131634Z-001\K8s_Python\Docs\PractiseFiles\Ingress_Controller_Deploy\ingressprod.yaml"
+
+4. Update DNS recods
+	
+	
