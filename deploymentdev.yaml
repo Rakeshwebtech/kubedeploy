@@ -23,7 +23,7 @@ spec:
     spec: 
       containers: 
       - name: djangoblog
-        image: 675770412962.dkr.ecr.us-west-1.amazonaws.com/devopstackecrhub:prod
+        image: 675770412962.dkr.ecr.us-west-1.amazonaws.com/devopstackecrhub:dev
         ports:
         - containerPort: 8000
 
