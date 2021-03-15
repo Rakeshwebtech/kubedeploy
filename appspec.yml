@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /deployment.yaml
-    destination: /root/test
+  - source: /
+    destination: /root/
 hooks:
   ApplicationStart:
     - location: start_server
